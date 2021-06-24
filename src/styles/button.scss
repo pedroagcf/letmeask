@@ -1,10 +1,9 @@
 .button {
-  margin-top: 16px;
   height: 50px;
   border-radius: 8px;
   font-weight: 500;
   background: #835afd;
-  color: #FFF;
+  color: #fff;
   padding: 0 32px;
 
   display: flex;
@@ -20,7 +19,7 @@
     margin-right: 8px;
   }
   &:not(:disabled):hover {
-    filter: brightness(0.9)
+    filter: brightness(0.9);
   }
   &:disabled {
     opacity: 0.6;
